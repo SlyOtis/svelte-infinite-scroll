@@ -1,1 +1,3 @@
-export { default as InfiniteScroll } from './InfiniteScroll.svelte';
+import InfiniteScroll from './InfiniteScroll.svelte';
+export { InfiniteScroll };
+export default InfiniteScroll;

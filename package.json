@@ -1,6 +1,6 @@
 {
   "name": "sly-svelte-infinite-scroll",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "A performant infinite scroll component for Svelte with bidirectional loading and dynamic item mounting",
   "keywords": ["svelte", "infinite-scroll", "virtual-scroll", "bidirectional", "device-log"],
