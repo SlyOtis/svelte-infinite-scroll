@@ -1,0 +1,33 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="scrollGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF3E00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF6B00;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="fadeGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF3E00;stop-opacity:0.1" />
+      <stop offset="50%" style="stop-color:#FF3E00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF3E00;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="#FFF8F5" stroke="url(#scrollGradient)" stroke-width="2"/>
+  
+  <!-- Scrolling bars representing infinite list items -->
+  <rect x="60" y="40" width="80" height="12" rx="6" fill="url(#fadeGradient)" opacity="0.3"/>
+  <rect x="60" y="60" width="80" height="12" rx="6" fill="url(#fadeGradient)" opacity="0.5"/>
+  <rect x="60" y="80" width="80" height="12" rx="6" fill="url(#fadeGradient)" opacity="0.7"/>
+  <rect x="60" y="100" width="80" height="12" rx="6" fill="url(#scrollGradient)"/>
+  <rect x="60" y="120" width="80" height="12" rx="6" fill="url(#fadeGradient)" opacity="0.7"/>
+  <rect x="60" y="140" width="80" height="12" rx="6" fill="url(#fadeGradient)" opacity="0.5"/>
+  <rect x="60" y="160" width="80" height="12" rx="6" fill="url(#fadeGradient)" opacity="0.3"/>
+  
+  <!-- Infinity symbol overlay -->
+  <path d="M 70 100 Q 85 85, 100 100 T 130 100 Q 115 115, 100 100 T 70 100" 
+        fill="none" 
+        stroke="#FF3E00" 
+        stroke-width="3" 
+        stroke-linecap="round"
+        opacity="0.8"/>
+</svg>
