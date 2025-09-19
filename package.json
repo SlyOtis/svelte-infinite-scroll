@@ -4,10 +4,10 @@
   "type": "module",
   "description": "A performant infinite scroll component for Svelte with bidirectional loading and dynamic item mounting",
   "keywords": ["svelte", "infinite-scroll", "virtual-scroll", "bidirectional", "device-log"],
-  "homepage": "https://github.com/slyotis/sly-svelte-infinite-scroll",
+  "homepage": "https://github.com/slyotis/svelte-infinite-scroll",
   "repository": {
     "type": "git",
-    "url": "https://github.com/slyotis/sly-svelte-infinite-scroll.git"
+    "url": "https://github.com/slyotis/svelte-infinite-scroll.git"
   },
   "license": "MIT",
   "author": "slyotis",
